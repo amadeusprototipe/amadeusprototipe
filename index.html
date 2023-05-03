@@ -1,13 +1,22 @@
-{
-  "name": "my-node-red-dashboard",
-  "version": "1.0.0",
-  "description": "My Node-RED Dashboard",
-  "scripts": {
-    "start": "node node_modules/node-red/red.js",
-    "deploy": "gh-pages -d . -b gh-pages -r git@github.com:amadeusprototipe/amadeusprototipe.git"
-  },
-  "dependencies": {
-    "node-red-dashboard": "^2.29.0",
-    "node-red-contrib-github-pages": "^0.2.1"
-  }
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dashboard Node-RED</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="http://127.0.0.1:1880/ui/#!/0?socketid=f_dnXdC7zSuD5zjZAAAB"></iframe>
+  </body>
+</html>
