@@ -3670,7 +3670,7 @@
         "func": "msg.payload = \"~ Silahkan klik 'Reset' sekali lagi untuk memulai dan abaikan pesan ini jika sudah klik 2 kali! ~\";\nnode.send(msg);",
         "outputs": 1,
         "noerr": 0,
-        "x": 270,
+        "x": 250,
         "y": 80,
         "wires": [
             [
