@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dashboard Node-RED</title>
+    <script src="https://cdn.jsdelivr.net/npm/@node-red/dashboard@2.29.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@node-red/dashboard@2.29.0.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="ui_base"></div>
+    <script>
+      RED = {
+        apiRootUrl: "/red/api",
+        user: {
+          anonymous: true
+        }
+      };
+      var ui = new RED.ui("#ui_base");
+      ui.init();
+    </script>
+  </body>
+</html>
