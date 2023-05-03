@@ -2,7 +2,14 @@
     "name": "dashboard-oee",
     "description": "Performance Dashboard OEE",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-date-converter": "0.0.3",
+        "node-red-contrib-function-npm": "0.4.3",
+        "node-red-contrib-google-sheets": "1.1.2",
+        "node-red-contrib-s7": "3.1.0",
+        "node-red-contrib-ui-clock": "1.0.2",
+        "node-red-dashboard": "3.4.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
