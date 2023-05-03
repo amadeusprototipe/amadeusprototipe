@@ -1,0 +1,3865 @@
+[
+    {
+        "id": "c1cfd9835acb2e31",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b806962bdc7281eb",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "40c5b7e8dc542718",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3db337b444e5d026",
+        "type": "gauth",
+        "name": "node-red@digitalisasi-ria-14.iam.gserviceaccount.com"
+    },
+    {
+        "id": "91a1bf7b25ec8df6",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#1e00ff",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#ffffff",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#1e00ff",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#1e00ff",
+                    "edited": true
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#614dff",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#1e00ff",
+                    "edited": true
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Real-Time Digitalization Line Performance Indofood Ice Cream",
+            "hideToolbar": "false",
+            "allowSwipe": "menu",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 65,
+                "sy": 44,
+                "gx": 10,
+                "gy": 10,
+                "cx": 8,
+                "cy": 8,
+                "px": 8,
+                "py": 8
+            }
+        }
+    },
+    {
+        "id": "7a1198fbe6345632",
+        "type": "ui_group",
+        "name": "Status Line",
+        "tab": "b469ad13b57dfbb2",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b469ad13b57dfbb2",
+        "type": "ui_tab",
+        "name": "Real Time Line Performance - Indofood Ice Cream",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "254ff0e8700612df",
+        "type": "ui_group",
+        "name": "Tanggal/Waktu",
+        "tab": "b469ad13b57dfbb2",
+        "order": 1,
+        "disp": true,
+        "width": 4,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "aa0ad3153fa65903",
+        "type": "ui_group",
+        "name": "Control",
+        "tab": "b469ad13b57dfbb2",
+        "order": 5,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3323f7416b9a5747",
+        "type": "ui_group",
+        "name": "Data Produk",
+        "tab": "2c021190d498ee99",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e34bc21bc9269937",
+        "type": "ui_group",
+        "name": "Data Produksi",
+        "tab": "b469ad13b57dfbb2",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "80e2142f0aa4abd6",
+        "type": "ui_group",
+        "name": "Achievement Aktual",
+        "tab": "b469ad13b57dfbb2",
+        "order": 6,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2c021190d498ee99",
+        "type": "ui_tab",
+        "name": "Data Produksi",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "29986c92d065db26",
+        "type": "ui_group",
+        "name": "Waktu Line",
+        "tab": "b469ad13b57dfbb2",
+        "order": 4,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c65eda9f17231468",
+        "type": "ui_group",
+        "name": "Tidak untuk diganggu",
+        "tab": "57a3f10ee3f9036a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "57a3f10ee3f9036a",
+        "type": "ui_tab",
+        "name": "Hide",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "6db947571d49f1a7",
+        "type": "ui_group",
+        "name": "Performance",
+        "tab": "b469ad13b57dfbb2",
+        "order": 8,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "eb41c3ec879e0163",
+        "type": "s7 endpoint",
+        "transport": "iso-on-tcp",
+        "address": "192.168.0.3",
+        "port": "102",
+        "rack": "0",
+        "slot": "2",
+        "localtsaphi": "02",
+        "localtsaplo": "00",
+        "remotetsaphi": "03",
+        "remotetsaplo": "00",
+        "connmode": "tsap",
+        "adapter": "",
+        "busaddr": "2",
+        "cycletime": "50",
+        "timeout": "1000",
+        "name": "PLC Logo 8",
+        "vartable": [
+            {
+                "addr": "DB1,X1024.0",
+                "name": "On/Off"
+            },
+            {
+                "addr": "DB1,X1024.2",
+                "name": "Reset"
+            },
+            {
+                "addr": "DB1,X1024.3",
+                "name": "Sensor Input"
+            },
+            {
+                "addr": "DB1,X1024.4",
+                "name": "Sensor Output"
+            },
+            {
+                "addr": "DB1,X1104.0",
+                "name": "M1"
+            },
+            {
+                "addr": "DB1,X1104.1",
+                "name": "M2"
+            },
+            {
+                "addr": "DB1,X1104.2",
+                "name": "M3"
+            },
+            {
+                "addr": "DB1,X1104.3",
+                "name": "M4"
+            }
+        ]
+    },
+    {
+        "id": "054dc37ff61904e8",
+        "type": "ui_group",
+        "name": "Target Performance",
+        "tab": "2c021190d498ee99",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ba287d2c91a9859f",
+        "type": "ui_group",
+        "name": "Achievement per waktu",
+        "tab": "b469ad13b57dfbb2",
+        "order": 7,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "14a5d866edbbbbc6",
+        "type": "ui_spacer",
+        "z": "c1cfd9835acb2e31",
+        "name": "spacer",
+        "group": "29986c92d065db26",
+        "order": 3,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "8cbbb8886e746b54",
+        "type": "ui_spacer",
+        "z": "c1cfd9835acb2e31",
+        "name": "spacer",
+        "group": "29986c92d065db26",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "aa9d6237a2dec926",
+        "type": "ui_spacer",
+        "z": "c1cfd9835acb2e31",
+        "name": "spacer",
+        "group": "80e2142f0aa4abd6",
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "3db4ea34bc8108bb",
+        "type": "ui_spacer",
+        "z": "c1cfd9835acb2e31",
+        "name": "spacer",
+        "group": "80e2142f0aa4abd6",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "35a2aa41e8bc009b",
+        "type": "ui_spacer",
+        "z": "c1cfd9835acb2e31",
+        "name": "spacer",
+        "group": "80e2142f0aa4abd6",
+        "order": 8,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "9118a9b051e9bdfb",
+        "type": "ui_spacer",
+        "z": "c1cfd9835acb2e31",
+        "name": "spacer",
+        "group": "aa0ad3153fa65903",
+        "order": 4,
+        "width": "4",
+        "height": "1"
+    },
+    {
+        "id": "a458855f3d9c6aa7",
+        "type": "ui_switch",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Status On/Off",
+        "tooltip": "",
+        "group": "7a1198fbe6345632",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "Run",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 460,
+        "y": 320,
+        "wires": [
+            [
+                "b1c284b93686da4a",
+                "cb8e88edd49715dc",
+                "35fa073afb73f653",
+                "2e1945c878e2ae0d",
+                "922ac6c927e25815"
+            ]
+        ]
+    },
+    {
+        "id": "f2b993cd0fc78993",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Run",
+                "fromt": "str",
+                "to": "RUNNING",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Idle",
+                "fromt": "str",
+                "to": "IDLE",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Downtime",
+                "fromt": "str",
+                "to": "DOWNTIME",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Breakdown",
+                "fromt": "str",
+                "to": "BREAKDOWN",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "reset",
+                "fromt": "str",
+                "to": "IDLE",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 180,
+        "wires": [
+            [
+                "bb9c88a56c9f8c9d"
+            ]
+        ]
+    },
+    {
+        "id": "bb9c88a56c9f8c9d",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "7a1198fbe6345632",
+        "order": 4,
+        "width": 6,
+        "height": 2,
+        "name": "",
+        "label": "Status",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1370,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "a401119b9bfa3c3d",
+        "type": "date-converter",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "msg",
+        "inTz": "Asia/Jakarta",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "YYYY/MM/DD HH:mm:ss",
+        "locale": "en-US",
+        "output": "",
+        "outputType": "msg",
+        "outTz": "Asia/Jakarta",
+        "x": 1420,
+        "y": 340,
+        "wires": [
+            [
+                "13551ad54123c0b8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "13551ad54123c0b8",
+        "type": "GSheet",
+        "z": "c1cfd9835acb2e31",
+        "creds": "3db337b444e5d026",
+        "method": "append",
+        "action": "",
+        "sheet": "1N2H8_toyttYMimrHg98W4C0nwJvaMtM0AKqWJ2OxZ1Q",
+        "cells": "Sheet1!F3",
+        "flatten": false,
+        "name": "On Run",
+        "x": 1600,
+        "y": 340,
+        "wires": [
+            [
+                "f2698f2ac877b1d2"
+            ]
+        ]
+    },
+    {
+        "id": "cc3a7389c8ec771f",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "Running Time On",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1210,
+        "y": 340,
+        "wires": [
+            [
+                "a401119b9bfa3c3d"
+            ]
+        ]
+    },
+    {
+        "id": "b1c284b93686da4a",
+        "type": "switch",
+        "z": "c1cfd9835acb2e31",
+        "name": "ON",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 990,
+        "y": 340,
+        "wires": [
+            [
+                "cc3a7389c8ec771f"
+            ]
+        ]
+    },
+    {
+        "id": "cb8e88edd49715dc",
+        "type": "switch",
+        "z": "c1cfd9835acb2e31",
+        "name": "OFF",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 990,
+        "y": 380,
+        "wires": [
+            [
+                "a9213241e8240c07"
+            ]
+        ]
+    },
+    {
+        "id": "a9213241e8240c07",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "Running Time Off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1210,
+        "y": 380,
+        "wires": [
+            [
+                "3587916d0c3576eb"
+            ]
+        ]
+    },
+    {
+        "id": "4c903cba3df1086e",
+        "type": "GSheet",
+        "z": "c1cfd9835acb2e31",
+        "creds": "3db337b444e5d026",
+        "method": "append",
+        "action": "",
+        "sheet": "1N2H8_toyttYMimrHg98W4C0nwJvaMtM0AKqWJ2OxZ1Q",
+        "cells": "Sheet1!G3",
+        "flatten": false,
+        "name": "Off Run",
+        "x": 1600,
+        "y": 380,
+        "wires": [
+            [
+                "f2698f2ac877b1d2"
+            ]
+        ]
+    },
+    {
+        "id": "3587916d0c3576eb",
+        "type": "date-converter",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "msg",
+        "inTz": "Asia/Jakarta",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "YYYY/MM/DD HH:mm:ss",
+        "locale": "en-US",
+        "output": "",
+        "outputType": "msg",
+        "outTz": "Asia/Jakarta",
+        "x": 1420,
+        "y": 380,
+        "wires": [
+            [
+                "4c903cba3df1086e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "bc7d4eb37659bdf7",
+        "type": "ui_clock",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "group": "254ff0e8700612df",
+        "order": 1,
+        "width": 4,
+        "height": 4,
+        "x": 990,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "9eaa9703cee20c9d",
+        "type": "inject",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 790,
+        "y": 60,
+        "wires": [
+            [
+                "bc7d4eb37659bdf7",
+                "3287ed89fa844795"
+            ]
+        ]
+    },
+    {
+        "id": "8881532c513b7f05",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "254ff0e8700612df",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1230,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3287ed89fa844795",
+        "type": "date-converter",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "msg",
+        "inTz": "Asia/Jakarta",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "DD/MM/YYYY HH:mm:ss",
+        "locale": "en-US",
+        "output": "",
+        "outputType": "msg",
+        "outTz": "Asia/Jakarta",
+        "x": 1040,
+        "y": 80,
+        "wires": [
+            [
+                "8881532c513b7f05"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3a0f50f82e6a8652",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "29986c92d065db26",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Running Time",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1400,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "f2698f2ac877b1d2",
+        "type": "debug",
+        "z": "c1cfd9835acb2e31",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1800,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "4c79b5df5554c69f",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "80e2142f0aa4abd6",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Input (Pcs) ",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1190,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "7b1a725d05bcf5ef",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "80e2142f0aa4abd6",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Output (CTN) ",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1180,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "a0e5a66102b1fddb",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "80e2142f0aa4abd6",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Output (Pcs) ",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1170,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "7d420ea837bef32c",
+        "type": "ui_dropdown",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Pilih produk yang diproduksi !",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "3323f7416b9a5747",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "Choc Rocks Bar Choco Nut 65 mL @ 40 Pc",
+                "type": "str"
+            },
+            {
+                "label": "",
+                "value": "Choc Rocks Bar Vanilla Nut 65 mL @40 Pc",
+                "type": "str"
+            },
+            {
+                "label": "",
+                "value": "Choc Rocks Bar Red Velvet 65 mL @40 Pc",
+                "type": "str"
+            },
+            {
+                "label": "",
+                "value": "Kul-Kul Igloo Chocolate @ 40 Pc",
+                "type": "str"
+            },
+            {
+                "label": "",
+                "value": "Kul-Kul Igloo Vanilla @ 40 Pc",
+                "type": "str"
+            },
+            {
+                "label": "",
+                "value": "Kul kul Igloo Choco Flakes 50 ml",
+                "type": "str"
+            },
+            {
+                "label": "",
+                "value": "Kul Kul Fruity Blueberry",
+                "type": "str"
+            },
+            {
+                "label": "",
+                "value": "Kul Kul Fruity Grape",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "produk",
+        "topicType": "str",
+        "className": "",
+        "x": 600,
+        "y": 1440,
+        "wires": [
+            [
+                "5318c8eab08280d6"
+            ]
+        ]
+    },
+    {
+        "id": "da35361a30e3660a",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "e34bc21bc9269937",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Produk :",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1160,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "85b3451a0d37fdc0",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "e34bc21bc9269937",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Target :",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1160,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "51c4bd3f8a8704c9",
+        "type": "ui_text_input",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Target produksi (Pcs) :",
+        "tooltip": "",
+        "group": "3323f7416b9a5747",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "target",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 620,
+        "y": 1500,
+        "wires": [
+            [
+                "7a68292f1457c2a8",
+                "b3ab881a3276fac1"
+            ]
+        ]
+    },
+    {
+        "id": "fc61a4586f6514ec",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "e34bc21bc9269937",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Waktu :",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1160,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "cdb1cfc3cd5edf16",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "e34bc21bc9269937",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Speed :",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1160,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "d42094b3c7d20015",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var counter1 = flow.get(\"counter1\") || 0;\nvar counterin1 = flow.get(\"counterin1\") || 0;\n\nif (msg.topic == \"reset\") {\n    counter1 = 0;\n    counterin1 = 0;\n} else if (msg.topic === \"input\") {\n    counter1 ++;\n} else if (msg.topic === \"inmanual\") {\n    counterin1 = msg.payload;\n};\n\nflow.set(\"counter1\", counter1);\nflow.set(\"counterin1\", counterin1);\n\nvar counterr1 = counter1 * 8 + counterin1;\n\nmsg.payload = counterr1;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1010,
+        "y": 860,
+        "wires": [
+            [
+                "4c79b5df5554c69f"
+            ]
+        ]
+    },
+    {
+        "id": "1a72122db03bc221",
+        "type": "ui_button",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "group": "aa0ad3153fa65903",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "label": "Sensor Input",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "input",
+        "topicType": "str",
+        "x": 450,
+        "y": 920,
+        "wires": [
+            [
+                "d42094b3c7d20015",
+                "37c96ff11d59f39d",
+                "a3371de42cb7b187",
+                "c50fa9b4dab7f2c1",
+                "2f71695934bb22e4"
+            ]
+        ]
+    },
+    {
+        "id": "a7c3645ae6bb1a82",
+        "type": "ui_button",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "group": "aa0ad3153fa65903",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "gray",
+        "className": "",
+        "icon": "autorenew",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "reset",
+        "topicType": "str",
+        "x": 250,
+        "y": 980,
+        "wires": [
+            [
+                "563e17a402b9203c",
+                "ecd4be7e28a4f584"
+            ]
+        ]
+    },
+    {
+        "id": "9dfbb40fff24bf83",
+        "type": "ui_button",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "group": "aa0ad3153fa65903",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "label": "Sensor Output",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "output",
+        "topicType": "str",
+        "x": 460,
+        "y": 1080,
+        "wires": [
+            [
+                "00422132d69f71e2",
+                "37c96ff11d59f39d",
+                "2db6fe2e212b2458",
+                "c50fa9b4dab7f2c1",
+                "2f71695934bb22e4",
+                "89ba432355685d81"
+            ]
+        ]
+    },
+    {
+        "id": "00422132d69f71e2",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var counter2 = flow.get(\"counter2\") || 0;\nvar counterout3 = flow.get(\"counterout3\") || 0;\n\nif (msg.topic == \"reset\") {\n    counter2 = 0;\n    counterout3 = 0;\n} else if (msg.topic == \"output\") {\n    counter2++\n} else if (msg.topic === \"outmanual2\") {\n    counterout3 = msg.payload;\n};\n\nflow.set(\"counter2\", counter2);\nflow.set(\"counterout3\", counterout3);\n\nvar counterr2 = counter2 * 20 + counterout3;\n\nmsg.payload = counterr2;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1010,
+        "y": 1140,
+        "wires": [
+            [
+                "a0e5a66102b1fddb",
+                "89d5229bac3a4815"
+            ]
+        ]
+    },
+    {
+        "id": "37c96ff11d59f39d",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var counter3 = flow.get(\"counter3\") || 0;\nvar counter4 = flow.get(\"counter4\") || 0;\nvar counterin2 = flow.get(\"counterin2\") || 0;\nvar counterout1 = flow.get(\"counterout1\") || 0;\n\nif (msg.topic == \"reset\") {\n    counter3 = 0;\n    counter4 = 0;\n    counterin2 = 0;\n    counterout1 = 0;\n} else if (msg.topic == \"input\") {\n    counter3++\n} else if (msg.topic == \"output\") {\n    counter4++\n} else if (msg.topic === \"inmanual4\") {\n    counterin2 = msg.payload;\n} else if (msg.topic === \"outmanual\") {\n    counterout1 = msg.payload;\n};\n\nflow.set(\"counter3\", counter3);\nflow.set(\"counter4\", counter4);\nflow.set(\"counterin2\", counterin2);\nflow.set(\"counterout1\", counterout1);\n\nvar counterr3 = counter3 * 8 + counterin2;\nvar counterr4 = counter4 * 20 + counterout1;\nvar losses = counterr3 - counterr4;\n\nmsg.payload = losses;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1010,
+        "y": 920,
+        "wires": [
+            [
+                "dcb641dc962e05b5"
+            ]
+        ]
+    },
+    {
+        "id": "dcb641dc962e05b5",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "80e2142f0aa4abd6",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Losses (Pcs)",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1190,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "2db6fe2e212b2458",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var counter5 = flow.get(\"counter5\") || 0;\nvar outputctn = flow.get(\"outputctn\") || 0;\n\nif (msg.topic == \"reset\") {\n    counter5 = 0;\n    outputctn = 0;\n} else if (msg.topic == \"output\") {\n    counter5++;\n} else if (msg.topic === \"outmanualctn\") {\n    outputctn = msg.payload;\n};\n\nflow.set(\"counter5\", counter5);\nflow.set(\"outputctn\", outputctn);\n\nvar countoutputctn = counter5 / 2 + outputctn;\nmsg.payload = Math.floor(countoutputctn);\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1010,
+        "y": 1080,
+        "wires": [
+            [
+                "7b1a725d05bcf5ef"
+            ]
+        ]
+    },
+    {
+        "id": "b3ab881a3276fac1",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var value1 = flow.get(\"value1\");\nvar value2 = flow.get(\"value2\");\nvar value3 = flow.get(\"value3\");\n\nif (msg.topic === \"target\") {\n    value1 = msg.payload;\n}\nelse if (msg.topic === \"jam\") {\n    value2 = msg.payload;\n    var speed = value1 / value2;\n    msg.payload = Math.ceil(speed) + \" \" + \"Pcs/jam\";\n    node.send(msg);\n}\nelse if (msg.topic === \"reset\") {\n    value3 = null;\n    msg.payload = value3;\n    node.send(msg);\n}\nflow.set(\"value1\", value1);\nflow.set(\"value2\", value2);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1010,
+        "y": 1560,
+        "wires": [
+            [
+                "cdb1cfc3cd5edf16",
+                "bc46868aa0aeaf70"
+            ]
+        ]
+    },
+    {
+        "id": "bc46868aa0aeaf70",
+        "type": "debug",
+        "z": "c1cfd9835acb2e31",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "1b09358a5b6e4bd8",
+        "type": "ui_switch",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Status Downtime",
+        "tooltip": "",
+        "group": "7a1198fbe6345632",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "DT",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 450,
+        "y": 520,
+        "wires": [
+            [
+                "df21219dfce90fe5",
+                "60c86fe1255d4476",
+                "5565515ee11ac12e",
+                "dde578a2b0e02eb4"
+            ]
+        ]
+    },
+    {
+        "id": "ca4bcad6e13c79ab",
+        "type": "date-converter",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "msg",
+        "inTz": "Asia/Jakarta",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "YYYY/MM/DD HH:mm:ss",
+        "locale": "en-US",
+        "output": "",
+        "outputType": "msg",
+        "outTz": "Asia/Jakarta",
+        "x": 1420,
+        "y": 520,
+        "wires": [
+            [
+                "ae9b9bde73aa77ca"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ae9b9bde73aa77ca",
+        "type": "GSheet",
+        "z": "c1cfd9835acb2e31",
+        "creds": "3db337b444e5d026",
+        "method": "append",
+        "action": "",
+        "sheet": "1N2H8_toyttYMimrHg98W4C0nwJvaMtM0AKqWJ2OxZ1Q",
+        "cells": "Sheet1!H3",
+        "flatten": false,
+        "name": "On DT",
+        "x": 1590,
+        "y": 520,
+        "wires": [
+            [
+                "bed09cfef2d14564"
+            ]
+        ]
+    },
+    {
+        "id": "7df13c21e9372430",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "Downtime On",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1200,
+        "y": 520,
+        "wires": [
+            [
+                "ca4bcad6e13c79ab"
+            ]
+        ]
+    },
+    {
+        "id": "df21219dfce90fe5",
+        "type": "switch",
+        "z": "c1cfd9835acb2e31",
+        "name": "ON",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Downtime",
+                "vt": "str"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 990,
+        "y": 520,
+        "wires": [
+            [
+                "7df13c21e9372430"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "60c86fe1255d4476",
+        "type": "switch",
+        "z": "c1cfd9835acb2e31",
+        "name": "OFF",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Run",
+                "vt": "str"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 990,
+        "y": 560,
+        "wires": [
+            [
+                "33def83dc49d7502"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "33def83dc49d7502",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "Downtime Off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1200,
+        "y": 560,
+        "wires": [
+            [
+                "2437857606bdda46"
+            ]
+        ]
+    },
+    {
+        "id": "f2dec33bc5d67698",
+        "type": "GSheet",
+        "z": "c1cfd9835acb2e31",
+        "creds": "3db337b444e5d026",
+        "method": "append",
+        "action": "",
+        "sheet": "1N2H8_toyttYMimrHg98W4C0nwJvaMtM0AKqWJ2OxZ1Q",
+        "cells": "Sheet1!I3",
+        "flatten": false,
+        "name": "Off DT",
+        "x": 1590,
+        "y": 560,
+        "wires": [
+            [
+                "bed09cfef2d14564"
+            ]
+        ]
+    },
+    {
+        "id": "2437857606bdda46",
+        "type": "date-converter",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "msg",
+        "inTz": "Asia/Jakarta",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "YYYY/MM/DD HH:mm:ss",
+        "locale": "en-US",
+        "output": "",
+        "outputType": "msg",
+        "outTz": "Asia/Jakarta",
+        "x": 1420,
+        "y": 560,
+        "wires": [
+            [
+                "f2dec33bc5d67698"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "77b6becbac3bb10a",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "29986c92d065db26",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Downtime",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1380,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "bed09cfef2d14564",
+        "type": "debug",
+        "z": "c1cfd9835acb2e31",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1800,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "3203e1c21d4bfb30",
+        "type": "ui_switch",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Status Breakdown",
+        "tooltip": "",
+        "group": "7a1198fbe6345632",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "BD",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 450,
+        "y": 660,
+        "wires": [
+            [
+                "09ea36f026fbbdb1",
+                "2fb673db5cb276a0",
+                "e0c2f95f986f8ad7",
+                "c4ec5799a63c9163"
+            ]
+        ]
+    },
+    {
+        "id": "dedecfadab9fea57",
+        "type": "date-converter",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "msg",
+        "inTz": "Asia/Jakarta",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "YYYY/MM/DD HH:mm:ss",
+        "locale": "en-US",
+        "output": "",
+        "outputType": "msg",
+        "outTz": "Asia/Jakarta",
+        "x": 1420,
+        "y": 700,
+        "wires": [
+            [
+                "b2d634c34f37299b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b2d634c34f37299b",
+        "type": "GSheet",
+        "z": "c1cfd9835acb2e31",
+        "creds": "3db337b444e5d026",
+        "method": "append",
+        "action": "",
+        "sheet": "1N2H8_toyttYMimrHg98W4C0nwJvaMtM0AKqWJ2OxZ1Q",
+        "cells": "Sheet1!K3",
+        "flatten": false,
+        "name": "On BDT",
+        "x": 1600,
+        "y": 700,
+        "wires": [
+            [
+                "84aa6c566badbf78"
+            ]
+        ]
+    },
+    {
+        "id": "434cbc74164622e2",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "BDT On",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1180,
+        "y": 700,
+        "wires": [
+            [
+                "dedecfadab9fea57"
+            ]
+        ]
+    },
+    {
+        "id": "09ea36f026fbbdb1",
+        "type": "switch",
+        "z": "c1cfd9835acb2e31",
+        "name": "ON",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Breakdown",
+                "vt": "str"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 990,
+        "y": 700,
+        "wires": [
+            [
+                "434cbc74164622e2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2fb673db5cb276a0",
+        "type": "switch",
+        "z": "c1cfd9835acb2e31",
+        "name": "OFF",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Run",
+                "vt": "str"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 990,
+        "y": 740,
+        "wires": [
+            [
+                "66695f168aa6fb8a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "66695f168aa6fb8a",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "BDT Off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1180,
+        "y": 740,
+        "wires": [
+            [
+                "bb02b1589d6ce738"
+            ]
+        ]
+    },
+    {
+        "id": "b1231c30cd0e367a",
+        "type": "GSheet",
+        "z": "c1cfd9835acb2e31",
+        "creds": "3db337b444e5d026",
+        "method": "append",
+        "action": "",
+        "sheet": "1N2H8_toyttYMimrHg98W4C0nwJvaMtM0AKqWJ2OxZ1Q",
+        "cells": "Sheet1!L3",
+        "flatten": false,
+        "name": "Off BDT",
+        "x": 1600,
+        "y": 740,
+        "wires": [
+            [
+                "84aa6c566badbf78"
+            ]
+        ]
+    },
+    {
+        "id": "bb02b1589d6ce738",
+        "type": "date-converter",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "msg",
+        "inTz": "Asia/Jakarta",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "YYYY/MM/DD HH:mm:ss",
+        "locale": "en-US",
+        "output": "",
+        "outputType": "msg",
+        "outTz": "Asia/Jakarta",
+        "x": 1420,
+        "y": 740,
+        "wires": [
+            [
+                "b1231c30cd0e367a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "979eb4d2fb78c656",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "29986c92d065db26",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Breakdown Time",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1410,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "84aa6c566badbf78",
+        "type": "debug",
+        "z": "c1cfd9835acb2e31",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1800,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "7d20394f337b70e8",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "if (msg.payload === true) {\n    if (!context.startTime) {\n        context.startTime = new Date().getTime();\n    } else {\n        context.startTime = new Date().getTime() - context.elapsedTime;\n    }\n    context.timer = setInterval(function () {\n        var elapsedTime = new Date().getTime() - context.startTime;\n        var hours = Math.floor(elapsedTime / 3600000);\n        var minutes = Math.floor((elapsedTime - (hours * 3600000)) / 60000);\n        var seconds = Math.floor((elapsedTime - (hours * 3600000) - (minutes * 60000)) / 1000);\n        msg.payload = hours.toString().padStart(2, \"0\") + \":\" + minutes.toString().padStart(2, \"0\") + \":\" + seconds.toString().padStart(2, \"0\");\n        node.send(msg);\n        context.elapsedTime = elapsedTime;\n    }, 1000);\n} else if (msg.payload === false) {\n    clearInterval(context.timer);\n} else if (msg.payload === \"reset\") {\n    clearInterval(context.timer);\n    context.startTime = 0;\n    context.elapsedTime = 0;\n    msg.payload = \"00:00:00\";\n    node.send(msg);\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1190,
+        "y": 300,
+        "wires": [
+            [
+                "3a0f50f82e6a8652",
+                "f2698f2ac877b1d2",
+                "f19d7f989d1ce803",
+                "4fccd6288e29e28c"
+            ]
+        ]
+    },
+    {
+        "id": "35fa073afb73f653",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "payload",
+                "fromt": "msg",
+                "to": "reset",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 300,
+        "wires": [
+            [
+                "7d20394f337b70e8"
+            ]
+        ]
+    },
+    {
+        "id": "5565515ee11ac12e",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "payload",
+                "fromt": "msg",
+                "to": "reset",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 480,
+        "wires": [
+            [
+                "7d5fec3c3cdf19ef"
+            ]
+        ]
+    },
+    {
+        "id": "7d5fec3c3cdf19ef",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "if (msg.payload === true) {\n    if (!context.startTime) {\n        context.startTime = new Date().getTime();\n    } else {\n        context.startTime = new Date().getTime() - context.elapsedTime;\n    }\n    context.timer = setInterval(function () {\n        var elapsedTime = new Date().getTime() - context.startTime;\n        var hours = Math.floor(elapsedTime / 3600000);\n        var minutes = Math.floor((elapsedTime - (hours * 3600000)) / 60000);\n        var seconds = Math.floor((elapsedTime - (hours * 3600000) - (minutes * 60000)) / 1000);\n        msg.payload = hours.toString().padStart(2, \"0\") + \":\" + minutes.toString().padStart(2, \"0\") + \":\" + seconds.toString().padStart(2, \"0\");\n        node.send(msg);\n        context.elapsedTime = elapsedTime;\n    }, 1000);\n} else if (msg.payload === false) {\n    clearInterval(context.timer);\n} else if (msg.payload === \"reset\") {\n    clearInterval(context.timer);\n    context.startTime = 0;\n    context.elapsedTime = 0;\n    msg.payload = \"00:00:00\";\n    node.send(msg);\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1190,
+        "y": 480,
+        "wires": [
+            [
+                "77b6becbac3bb10a",
+                "bed09cfef2d14564",
+                "5dbd633997e7f8cb"
+            ]
+        ]
+    },
+    {
+        "id": "e0c2f95f986f8ad7",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Breakdown",
+                "fromt": "str",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "Run",
+                "fromt": "str",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "payload",
+                "fromt": "msg",
+                "to": "reset",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 660,
+        "wires": [
+            [
+                "874b7f8be2b188d8"
+            ]
+        ]
+    },
+    {
+        "id": "874b7f8be2b188d8",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "if (msg.payload === true) {\n    if (!context.startTime) {\n        context.startTime = new Date().getTime();\n    } else {\n        context.startTime = new Date().getTime() - context.elapsedTime;\n    }\n    context.timer = setInterval(function () {\n        var elapsedTime = new Date().getTime() - context.startTime;\n        var hours = Math.floor(elapsedTime / 3600000);\n        var minutes = Math.floor((elapsedTime - (hours * 3600000)) / 60000);\n        var seconds = Math.floor((elapsedTime - (hours * 3600000) - (minutes * 60000)) / 1000);\n        msg.payload = hours.toString().padStart(2, \"0\") + \":\" + minutes.toString().padStart(2, \"0\") + \":\" + seconds.toString().padStart(2, \"0\");\n        node.send(msg);\n        context.elapsedTime = elapsedTime;\n    }, 1000);\n} else if (msg.payload === false) {\n    clearInterval(context.timer);\n} else if (msg.payload === \"reset\") {\n    clearInterval(context.timer);\n    context.startTime = 0;\n    context.elapsedTime = 0;\n    msg.payload = \"00:00:00\";\n    node.send(msg);\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1190,
+        "y": 660,
+        "wires": [
+            [
+                "979eb4d2fb78c656",
+                "84aa6c566badbf78",
+                "ebaa5e132a7c11b6"
+            ]
+        ]
+    },
+    {
+        "id": "c695a03fc38dae40",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Target jam produksi :",
+        "tooltip": "",
+        "group": "3323f7416b9a5747",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "jam",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "24",
+        "step": 1,
+        "className": "",
+        "x": 620,
+        "y": 1620,
+        "wires": [
+            [
+                "fc18da34f81515f5",
+                "b3ab881a3276fac1"
+            ]
+        ]
+    },
+    {
+        "id": "7a68292f1457c2a8",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "if (msg.topic === \"reset\") {\n    msg.payload = null;\n    node.send(msg);\n}\nelse if (msg.topic === \"target\") {\n    msg.payload = msg.payload + \" \" + \"Pcs\";\n    node.send(msg)\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1010,
+        "y": 1500,
+        "wires": [
+            [
+                "85b3451a0d37fdc0"
+            ]
+        ]
+    },
+    {
+        "id": "fc18da34f81515f5",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "if (msg.topic === \"reset\") {\n    msg.payload = null;\n    node.send(msg);\n}\nelse if (msg.topic === \"jam\") {\n    msg.payload = msg.payload + \" \" + \"Jam\";\n    node.send(msg)\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1010,
+        "y": 1620,
+        "wires": [
+            [
+                "fc61a4586f6514ec"
+            ]
+        ]
+    },
+    {
+        "id": "accc81ad4718e858",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "e34bc21bc9269937",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Line",
+        "format": "RIA 14",
+        "layout": "col-center",
+        "className": "",
+        "x": 990,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "a520d053e7d58493",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "80e2142f0aa4abd6",
+        "order": 7,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "% Losses",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1500,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "c50fa9b4dab7f2c1",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var counter6 = flow.get(\"counter6\") || 0;\nvar counter7 = flow.get(\"counter7\") || 0;\nvar counter8 = flow.get(\"counter8\") || 0;\nvar counterin4 = flow.get(\"counterin4\") || 0;\nvar counterout4 = flow.get(\"counterout4\") || 0;\n\nif (msg.topic == \"reset\") {\n    counter6 = 0;\n    counter7 = 0;\n    counter8 = 0;\n    counterin4 = 0;\n    counterout4 = 0;\n} else if (msg.topic == \"input\") {\n    counter6++;\n    counter7++;\n} else if (msg.topic == \"output\") {\n    counter8++;\n} else if (msg.topic === \"inmanual2\") {\n    counterin4 = msg.payload;\n} else if (msg.topic === \"outmanual3\") {\n    counterout4 = msg.payload;\n};\n\nflow.set(\"counter6\", counter6);\nflow.set(\"counter7\", counter7);\nflow.set(\"counter8\", counter8);\nflow.set(\"counterin4\", counterin4);\nflow.set(\"counterout4\", counterout4);\n\nvar counterr6 = counter6 * 8 + counterin4;\nvar counterr7 = counter7 * 8 + counterin4;\nvar counterr8 = counter8 * 20 + counterout4;\nvar losses2 = counterr7 - counterr8;\n\nvar lossperin = losses2 / counterr6 *100;\nmsg.payload = lossperin.toFixed(2) + \" %\";\nnode.send(msg);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1010,
+        "y": 1220,
+        "wires": [
+            [
+                "a06852ed90128320"
+            ]
+        ]
+    },
+    {
+        "id": "2f71695934bb22e4",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var counter9 = flow.get(\"counter9\") || 0;\nvar counter10 = flow.get(\"counter10\") || 0;\nvar counter11 = flow.get(\"counter11\") || 0;\nvar counterin5 = flow.get(\"counterin5\") || 0;\nvar counterout5 = flow.get(\"counterout5\") || 0;\n\nif (msg.topic == \"reset\") {\n    counter9 = 0;\n    counter10 = 0;\n    counter11 = 0;\n    counterin5 = 0;\n    counterout5 = 0;\n} else if (msg.topic == \"input\") {\n    counter9++;\n    counter10++;\n} else if (msg.topic == \"output\") {\n    counter11++;\n} else if (msg.topic === \"inmanual3\") {\n    counterin5 = msg.payload;\n} else if (msg.topic === \"outmanual4\") {\n    counterout5 = msg.payload;\n};\n\nflow.set(\"counter9\", counter9);\nflow.set(\"counter10\", counter10);\nflow.set(\"counter11\", counter11);\nflow.set(\"counterin5\", counterin5);\nflow.set(\"counterout5\", counterout5);\n\nvar counterr9 = counter9 * 8 + counterin5;\nvar counterr10 = counter10 * 8 + counterin5;\nvar counterr11 = counter11 * 20 + counterout5;\n\nvar outperin = counterr11 / counterr10 * 100;\nmsg.payload = outperin.toFixed(2) + \" %\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1010,
+        "y": 1280,
+        "wires": [
+            [
+                "59aba25b0abe4187"
+            ]
+        ]
+    },
+    {
+        "id": "600f0f2dcb70aa48",
+        "type": "ui_gauge",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "group": "80e2142f0aa4abd6",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Achv",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "min": "0",
+        "max": "100",
+        "colors": [
+            "#e60000",
+            "#e60000",
+            "#0fe000"
+        ],
+        "seg1": "98.25",
+        "seg2": "98.25",
+        "diff": false,
+        "className": "",
+        "x": 1490,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "5318c8eab08280d6",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "if (msg.topic === \"reset\") {\n    msg.payload = null;\n    node.send(msg);\n}\nelse if (msg.topic === \"produk\") {\n    msg.payload = msg.payload;\n    node.send(msg)\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1010,
+        "y": 1440,
+        "wires": [
+            [
+                "da35361a30e3660a"
+            ]
+        ]
+    },
+    {
+        "id": "4fccd6288e29e28c",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "29986c92d065db26",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "GPH",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1790,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "69650641f46baf8e",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "29986c92d065db26",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "NPH",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 2350,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "f19d7f989d1ce803",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var time1 = msg.payload.split(\":\") || 0; // memisahkan nilai jam, menit, detik pada input\n\n// menghitung total detik dari input\nvar totalSeconds = (parseInt(time1[0]) * 3600) + (parseInt(time1[1]) * 60) + parseInt(time1[2]);\n\n// menyiapkan output\nmsg.payload = totalSeconds;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1670,
+        "y": 260,
+        "wires": [
+            [
+                "8f433f946b8ace07"
+            ]
+        ]
+    },
+    {
+        "id": "5dbd633997e7f8cb",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var time2 = msg.payload.split(\":\") || 0; // memisahkan nilai jam, menit, detik pada input\n\n// menghitung total detik dari input\nvar totalSeconds2 = (parseInt(time2[0]) * 3600) + (parseInt(time2[1]) * 60) + parseInt(time2[2]);\n\n// menyiapkan output\nmsg.payload = totalSeconds2;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1670,
+        "y": 440,
+        "wires": [
+            [
+                "ee56b37a1a3f8487"
+            ]
+        ]
+    },
+    {
+        "id": "8f433f946b8ace07",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Flow 1",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "gph",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100000",
+        "step": 1,
+        "className": "",
+        "x": 1810,
+        "y": 260,
+        "wires": [
+            [
+                "3cf13aed3fc708f1",
+                "a7f6cd61f15ba5f7"
+            ]
+        ]
+    },
+    {
+        "id": "ee56b37a1a3f8487",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Flow 2",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "jam",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100000",
+        "step": 1,
+        "className": "",
+        "x": 1810,
+        "y": 440,
+        "wires": [
+            [
+                "3cf13aed3fc708f1"
+            ]
+        ]
+    },
+    {
+        "id": "3cf13aed3fc708f1",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var value1 = flow.get(\"value1\") || 0;\nvar value2 = flow.get(\"value2\") || 0;\nvar value3 = flow.get(\"value3\") || 0;\n\nif (msg.topic === \"jam\") {\n    value2 = msg.payload;\n} \nelse if (msg.topic === \"gph\") {\n    value1 = msg.payload;\n    var split = value1 - value2;\n    var splitime = split;\n    var hours = Math.floor(splitime / 3600);\n    var minutes = Math.floor((splitime % 3600) / 60);\n    var seconds = Math.floor(splitime % 60);\n    var nph = hours.toString().padStart(2, \"0\") + \":\" +\n        minutes.toString().padStart(2, \"0\") + \":\" +\n        seconds.toString().padStart(2, \"0\");\n    msg.payload = nph;\n    node.send(msg);\n}\nelse if (msg.topic === \"reset\") {\n    value1 = null;\n    value2 = null;\n    value3 = null;\n    msg.payload = \"00:00:00\";\n    node.send(msg);\n}\nflow.set(\"value1\", value1);\nflow.set(\"value2\", value2);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2150,
+        "y": 1000,
+        "wires": [
+            [
+                "fa37d0d1fb95527e",
+                "69650641f46baf8e",
+                "46301be6d598bb71"
+            ]
+        ]
+    },
+    {
+        "id": "fa37d0d1fb95527e",
+        "type": "debug",
+        "z": "c1cfd9835acb2e31",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2360,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "ebaa5e132a7c11b6",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var time3 = msg.payload.split(\":\") || 0; // memisahkan nilai jam, menit, detik pada input\n\n// menghitung total detik dari input\nvar totalSeconds3 = (parseInt(time3[0]) * 3600) + (parseInt(time3[1]) * 60) + parseInt(time3[2]);\n\n// menyiapkan output\nmsg.payload = totalSeconds3;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1670,
+        "y": 620,
+        "wires": [
+            [
+                "2671f9b4476ad26c"
+            ]
+        ]
+    },
+    {
+        "id": "2671f9b4476ad26c",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Flow 3",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "bdt",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100000",
+        "step": 1,
+        "className": "",
+        "x": 1810,
+        "y": 620,
+        "wires": [
+            [
+                "6cf4cf8a197fb909"
+            ]
+        ]
+    },
+    {
+        "id": "6cf4cf8a197fb909",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var valu1 = flow.get(\"valu1\") || 0;\nvar valu2 = flow.get(\"valu2\") || 0;\nvar valu3 = flow.get(\"valu3\") || 0;\n\nif (msg.topic === \"nph\") {\n    valu1 = msg.payload;\n    var splitit = valu1 - valu2;\n    var splittime = splitit;\n    var hours = Math.floor(splittime / 3600);\n    var minutes = Math.floor((splittime % 3600) / 60);\n    var seconds = Math.floor(splittime % 60);\n    var th = hours.toString().padStart(2, \"0\") + \":\" +\n        minutes.toString().padStart(2, \"0\") + \":\" +\n        seconds.toString().padStart(2, \"0\");\n    msg.payload = th;\n    node.send(msg);\n}\nelse if (msg.topic === \"bdt\") {\n    valu2 = msg.payload;\n}\nelse if (msg.topic === \"reset\") {\n    valu1 = null;\n    valu2 = null;\n    valu3 = null;\n    msg.payload = \"00:00:00\";\n    node.send(msg);\n}\nflow.set(\"valu1\", valu1);\nflow.set(\"valu2\", valu2);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2750,
+        "y": 960,
+        "wires": [
+            [
+                "c2885d50f3af2441",
+                "03879826555baa72",
+                "18b271d9f1b03184"
+            ]
+        ]
+    },
+    {
+        "id": "46301be6d598bb71",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var time4 = msg.payload.split(\":\"); // memisahkan nilai jam, menit, detik pada input\n\n// menghitung total detik dari input\nvar totalSeconds4 = (parseInt(time4[0]) * 3600) + (parseInt(time4[1]) * 60) + parseInt(time4[2]);\n\n// menyiapkan output\nmsg.payload = Number(totalSeconds4);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2350,
+        "y": 1000,
+        "wires": [
+            [
+                "a1388d802e95dc02"
+            ]
+        ]
+    },
+    {
+        "id": "a1388d802e95dc02",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Flow 4",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "nph",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100000",
+        "step": 1,
+        "className": "",
+        "x": 2490,
+        "y": 1000,
+        "wires": [
+            [
+                "6cf4cf8a197fb909",
+                "0297563e5c6f5e8b"
+            ]
+        ]
+    },
+    {
+        "id": "18b271d9f1b03184",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "29986c92d065db26",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "TH",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 3010,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "c2885d50f3af2441",
+        "type": "debug",
+        "z": "c1cfd9835acb2e31",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3080,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "03879826555baa72",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var time3 = msg.payload.split(\":\"); // memisahkan nilai jam, menit, detik pada input\n\n// menghitung total detik dari input\nvar totalSeconds3 = (parseInt(time3[0]) * 3600) + (parseInt(time3[1]) * 60) + parseInt(time3[2]);\n\n// menyiapkan output\nmsg.payload = Number(totalSeconds3);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2970,
+        "y": 960,
+        "wires": [
+            [
+                "9a6b1fbc0c65c0aa"
+            ]
+        ]
+    },
+    {
+        "id": "9a6b1fbc0c65c0aa",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Flow 5",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "TH",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100000",
+        "step": 1,
+        "className": "",
+        "x": 3130,
+        "y": 960,
+        "wires": [
+            [
+                "0297563e5c6f5e8b",
+                "a7f6cd61f15ba5f7"
+            ]
+        ]
+    },
+    {
+        "id": "0297563e5c6f5e8b",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var valu4 = flow.get(\"valu4\") || 0;\nvar valu5 = flow.get(\"valu5\") || 0;\nvar valu6 = flow.get(\"valu6\") || 0;\n\nif (msg.topic === \"nph\") {\n    valu4 = msg.payload;\n}\nelse if (msg.topic === \"TH\") {\n    valu5 = msg.payload;\n    var lineper = valu5 / valu4 * 100;\n    msg.payload = lineper.toFixed(2) + \" %\";\n    node.send(msg);\n}\nelse if (msg.topic === \"reset\") {\n    valu4 = null;\n    valu5 = null;\n    valu6 = null;\n    msg.payload = \"0 %\";\n    node.send(msg);\n}\nflow.set(\"valu4\", valu4);\nflow.set(\"valu5\", valu5);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 3370,
+        "y": 1040,
+        "wires": [
+            [
+                "7f9bfae96d7124eb"
+            ]
+        ]
+    },
+    {
+        "id": "5ed6b0dabe4f5cf5",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "6db947571d49f1a7",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "LE :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 3850,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "a7f6cd61f15ba5f7",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var valu7 = flow.get(\"valu7\") || 0;\nvar valu8 = flow.get(\"valu8\") || 0;\nvar valu9 = flow.get(\"valu9\") || 0;\n\nif (msg.topic === \"gph\") {\n    valu7 = msg.payload;\n}\nelse if (msg.topic === \"TH\") {\n    valu8 = msg.payload;\n    var lineeff = valu8 / valu7 * 100;\n    msg.payload = lineeff.toFixed(2);\n    node.send(msg);\n}\nelse if (msg.topic === \"reset\") {\n    valu7 = null;\n    valu8 = null;\n    valu9 = null;\n    msg.payload = \"0 %\";\n    node.send(msg);\n}\nflow.set(\"valu7\", valu7);\nflow.set(\"valu8\", valu8);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 3370,
+        "y": 860,
+        "wires": [
+            [
+                "561ade6c214c796b"
+            ]
+        ]
+    },
+    {
+        "id": "cb2633f937b8ab9e",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "6db947571d49f1a7",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "LP :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 3850,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "6ee0b9e30a736355",
+        "type": "ui_gauge",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "group": "6db947571d49f1a7",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "gtype": "donut",
+        "title": "Line Performance",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#e60000",
+            "#e60000",
+            "#0fe000"
+        ],
+        "seg1": "79",
+        "seg2": "79",
+        "diff": false,
+        "className": "",
+        "x": 3890,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "4879de523656f944",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "6db947571d49f1a7",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Target LE :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 3070,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "80617c65d31231fe",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "6db947571d49f1a7",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Target LP :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 3070,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "788b79be48199b7e",
+        "type": "ui_text",
+        "z": "c1cfd9835acb2e31",
+        "group": "ba287d2c91a9859f",
+        "order": 3,
+        "width": 8,
+        "height": "1",
+        "name": "",
+        "label": "Catatan Produksi",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1250,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "29a4b127e65f11b1",
+        "type": "ui_text_input",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Catatan Awal Produksi",
+        "tooltip": "",
+        "group": "054dc37ff61904e8",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 1040,
+        "y": 1380,
+        "wires": [
+            [
+                "788b79be48199b7e"
+            ]
+        ]
+    },
+    {
+        "id": "7ac9948897c444ad",
+        "type": "s7 in",
+        "z": "c1cfd9835acb2e31",
+        "endpoint": "eb41c3ec879e0163",
+        "mode": "single",
+        "variable": "On/Off",
+        "diff": true,
+        "name": "Status On/Off",
+        "x": 270,
+        "y": 320,
+        "wires": [
+            [
+                "a458855f3d9c6aa7"
+            ]
+        ]
+    },
+    {
+        "id": "2e1945c878e2ae0d",
+        "type": "s7 out",
+        "z": "c1cfd9835acb2e31",
+        "endpoint": "eb41c3ec879e0163",
+        "variable": "M1",
+        "name": "M1",
+        "x": 790,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "922ac6c927e25815",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "Run",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "Idle",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 180,
+        "wires": [
+            [
+                "f2b993cd0fc78993"
+            ]
+        ]
+    },
+    {
+        "id": "dde578a2b0e02eb4",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "Downtime",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "Run",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 220,
+        "wires": [
+            [
+                "f2b993cd0fc78993"
+            ]
+        ]
+    },
+    {
+        "id": "c4ec5799a63c9163",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "true",
+                "fromt": "bool",
+                "to": "Breakdown",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "Run",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 260,
+        "wires": [
+            [
+                "f2b993cd0fc78993"
+            ]
+        ]
+    },
+    {
+        "id": "7704f5dc6dadb7d9",
+        "type": "s7 in",
+        "z": "c1cfd9835acb2e31",
+        "endpoint": "eb41c3ec879e0163",
+        "mode": "single",
+        "variable": "Reset",
+        "diff": true,
+        "name": "",
+        "x": 110,
+        "y": 980,
+        "wires": [
+            [
+                "a7c3645ae6bb1a82"
+            ]
+        ]
+    },
+    {
+        "id": "563e17a402b9203c",
+        "type": "s7 out",
+        "z": "c1cfd9835acb2e31",
+        "endpoint": "eb41c3ec879e0163",
+        "variable": "M2",
+        "name": "M2",
+        "x": 430,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "ecd4be7e28a4f584",
+        "type": "change",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "false",
+                "fromt": "bool",
+                "to": "reset",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 980,
+        "wires": [
+            [
+                "35fa073afb73f653",
+                "5565515ee11ac12e",
+                "e0c2f95f986f8ad7",
+                "d42094b3c7d20015",
+                "37c96ff11d59f39d",
+                "2db6fe2e212b2458",
+                "00422132d69f71e2",
+                "c50fa9b4dab7f2c1",
+                "2f71695934bb22e4",
+                "5318c8eab08280d6",
+                "7a68292f1457c2a8",
+                "b3ab881a3276fac1",
+                "fc18da34f81515f5",
+                "3cf13aed3fc708f1",
+                "6cf4cf8a197fb909",
+                "0297563e5c6f5e8b",
+                "a7f6cd61f15ba5f7",
+                "458ac7032f721ee6"
+            ]
+        ]
+    },
+    {
+        "id": "5a3a6f1155658f2e",
+        "type": "s7 in",
+        "z": "c1cfd9835acb2e31",
+        "endpoint": "eb41c3ec879e0163",
+        "mode": "single",
+        "variable": "Sensor Input",
+        "diff": true,
+        "name": "Sensor Input",
+        "x": 90,
+        "y": 920,
+        "wires": [
+            [
+                "1a72122db03bc221"
+            ]
+        ]
+    },
+    {
+        "id": "a3371de42cb7b187",
+        "type": "s7 out",
+        "z": "c1cfd9835acb2e31",
+        "endpoint": "eb41c3ec879e0163",
+        "variable": "M3",
+        "name": "M3",
+        "x": 470,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "7b02194844e1c578",
+        "type": "s7 in",
+        "z": "c1cfd9835acb2e31",
+        "endpoint": "eb41c3ec879e0163",
+        "mode": "single",
+        "variable": "Sensor Output",
+        "diff": true,
+        "name": "Sensor Input",
+        "x": 90,
+        "y": 1080,
+        "wires": [
+            [
+                "9dfbb40fff24bf83"
+            ]
+        ]
+    },
+    {
+        "id": "89ba432355685d81",
+        "type": "s7 out",
+        "z": "c1cfd9835acb2e31",
+        "endpoint": "eb41c3ec879e0163",
+        "variable": "M4",
+        "name": "M4",
+        "x": 490,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "ae98073821037839",
+        "type": "ui_form",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "",
+        "group": "aa0ad3153fa65903",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "options": [
+            {
+                "label": "Input Manual (Pcs)",
+                "value": "inmanual",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "inmanual": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 110,
+        "y": 780,
+        "wires": [
+            [
+                "6347c5a0a94854e5"
+            ]
+        ]
+    },
+    {
+        "id": "6347c5a0a94854e5",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var inman = msg.payload.inmanual;\nmsg.payload = inman;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 780,
+        "wires": [
+            [
+                "25ce3f9b018e1fde",
+                "134b9f803f3ff23f",
+                "1835fcd4b123c653",
+                "502be85ddeacac32"
+            ]
+        ]
+    },
+    {
+        "id": "ae66b59e33745f51",
+        "type": "ui_form",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "",
+        "group": "aa0ad3153fa65903",
+        "order": 6,
+        "width": 4,
+        "height": 1,
+        "options": [
+            {
+                "label": "Output Manual (Pcs)",
+                "value": "outmanual",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "outmanual": ""
+        },
+        "payload": "",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 110,
+        "y": 1260,
+        "wires": [
+            [
+                "68e11809fdf111b8"
+            ]
+        ]
+    },
+    {
+        "id": "68e11809fdf111b8",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var outman = msg.payload.outmanual;\nmsg.payload = outman;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 1260,
+        "wires": [
+            [
+                "6a65d805a14e3c34",
+                "ce3ee373fd725dc0",
+                "aeeb1add5f6acb63",
+                "fcf5a00e917791db"
+            ]
+        ]
+    },
+    {
+        "id": "679b6aba44acca6c",
+        "type": "ui_form",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "",
+        "group": "aa0ad3153fa65903",
+        "order": 7,
+        "width": 4,
+        "height": 1,
+        "options": [
+            {
+                "label": "Output Manual (CTN)",
+                "value": "outmanualctn",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "outmanualctn": ""
+        },
+        "payload": "",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 110,
+        "y": 1360,
+        "wires": [
+            [
+                "dd15aa014c8a998d"
+            ]
+        ]
+    },
+    {
+        "id": "dd15aa014c8a998d",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var outmanctn = msg.payload.outmanualctn;\nmsg.payload = outmanctn;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 1360,
+        "wires": [
+            [
+                "5f59638efedc4293"
+            ]
+        ]
+    },
+    {
+        "id": "5f59638efedc4293",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Output Manual (CTN)",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "outmanualctn",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000000",
+        "step": 1,
+        "className": "",
+        "x": 500,
+        "y": 1360,
+        "wires": [
+            [
+                "2db6fe2e212b2458"
+            ]
+        ]
+    },
+    {
+        "id": "25ce3f9b018e1fde",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "inmanual",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "inmanual",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000000",
+        "step": 1,
+        "className": "",
+        "x": 460,
+        "y": 700,
+        "wires": [
+            [
+                "d42094b3c7d20015"
+            ]
+        ]
+    },
+    {
+        "id": "134b9f803f3ff23f",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "inmanual",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "inmanual2",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000000",
+        "step": 1,
+        "className": "",
+        "x": 460,
+        "y": 780,
+        "wires": [
+            [
+                "c50fa9b4dab7f2c1"
+            ]
+        ]
+    },
+    {
+        "id": "1835fcd4b123c653",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "inmanual",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "inmanual3",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000000",
+        "step": 1,
+        "className": "",
+        "x": 460,
+        "y": 820,
+        "wires": [
+            [
+                "2f71695934bb22e4"
+            ]
+        ]
+    },
+    {
+        "id": "6a65d805a14e3c34",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "outmanual",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100000",
+        "step": 1,
+        "className": "",
+        "x": 460,
+        "y": 1200,
+        "wires": [
+            [
+                "37c96ff11d59f39d"
+            ]
+        ]
+    },
+    {
+        "id": "ce3ee373fd725dc0",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "outmanual2",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100000",
+        "step": 1,
+        "className": "",
+        "x": 460,
+        "y": 1240,
+        "wires": [
+            [
+                "00422132d69f71e2"
+            ]
+        ]
+    },
+    {
+        "id": "aeeb1add5f6acb63",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "outmanual3",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100000",
+        "step": 1,
+        "className": "",
+        "x": 460,
+        "y": 1280,
+        "wires": [
+            [
+                "c50fa9b4dab7f2c1"
+            ]
+        ]
+    },
+    {
+        "id": "fcf5a00e917791db",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "outmanual4",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100000",
+        "step": 1,
+        "className": "",
+        "x": 460,
+        "y": 1320,
+        "wires": [
+            [
+                "2f71695934bb22e4"
+            ]
+        ]
+    },
+    {
+        "id": "502be85ddeacac32",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "inmanual",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "inmanual4",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000000",
+        "step": 1,
+        "className": "",
+        "x": 460,
+        "y": 740,
+        "wires": [
+            [
+                "37c96ff11d59f39d"
+            ]
+        ]
+    },
+    {
+        "id": "a06852ed90128320",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "perloss",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 1160,
+        "y": 1220,
+        "wires": [
+            [
+                "24eebb62e3d619f7"
+            ]
+        ]
+    },
+    {
+        "id": "24eebb62e3d619f7",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var inperloss = flow.get(\"inperloss\");\n\nif (msg.topic === \"reset\") {\n    msg.payload = \"0 %\";\n    node.send(msg);\n} else if (msg.topic === \"perloss\") {\n    inperloss = msg.payload;\n    msg.payload = inperloss.toFixed(2) + \" %\";\n    node.send(msg);\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1330,
+        "y": 1220,
+        "wires": [
+            [
+                "a520d053e7d58493"
+            ]
+        ]
+    },
+    {
+        "id": "a222b9ef239c0d06",
+        "type": "ui_text_input",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Target LP",
+        "tooltip": "",
+        "group": "054dc37ff61904e8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "targetlp",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 2720,
+        "y": 1140,
+        "wires": [
+            [
+                "3f89cd654e75c76b"
+            ]
+        ]
+    },
+    {
+        "id": "3f89cd654e75c76b",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var targetlp = msg.payload;\n\nmsg.payload = targetlp + \" %\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2890,
+        "y": 1140,
+        "wires": [
+            [
+                "80617c65d31231fe"
+            ]
+        ]
+    },
+    {
+        "id": "bae074e36cba2958",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var targetle = msg.payload;\n\nmsg.payload = targetle + \" %\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2890,
+        "y": 1100,
+        "wires": [
+            [
+                "4879de523656f944"
+            ]
+        ]
+    },
+    {
+        "id": "6b4c787a6b23761c",
+        "type": "ui_text_input",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "Target LE",
+        "tooltip": "",
+        "group": "054dc37ff61904e8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "targetle",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 2720,
+        "y": 1100,
+        "wires": [
+            [
+                "bae074e36cba2958"
+            ]
+        ]
+    },
+    {
+        "id": "59aba25b0abe4187",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "achv",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 1160,
+        "y": 1280,
+        "wires": [
+            [
+                "2af68f97858cd61b"
+            ]
+        ]
+    },
+    {
+        "id": "2af68f97858cd61b",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var perachv = flow.get(\"perachv\");\n\nif (msg.topic === \"reset\") {\n    msg.payload = \"0 %\";\n    node.send(msg);\n} else if (msg.topic === \"achv\") {\n    perachv = msg.payload;\n    msg.payload = perachv.toFixed(2) + \" %\";\n    node.send(msg);\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1330,
+        "y": 1280,
+        "wires": [
+            [
+                "600f0f2dcb70aa48"
+            ]
+        ]
+    },
+    {
+        "id": "89d5229bac3a4815",
+        "type": "trigger",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "op1": "",
+        "op2": "",
+        "op1type": "pay",
+        "op2type": "payl",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "livit",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1400,
+        "y": 1100,
+        "wires": [
+            [
+                "f428ca8b06669a2b"
+            ]
+        ]
+    },
+    {
+        "id": "e89f46e8ea8204bf",
+        "type": "ui_chart",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "group": "ba287d2c91a9859f",
+        "order": 1,
+        "width": "8",
+        "height": "9",
+        "label": "Progress Output Produk",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "cubic",
+        "nodata": "Silahkan klik reset !",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1810,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "458ac7032f721ee6",
+        "type": "switch",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "reset",
+                "vt": "msg"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1170,
+        "y": 1040,
+        "wires": [
+            [
+                "89d5229bac3a4815"
+            ]
+        ]
+    },
+    {
+        "id": "f428ca8b06669a2b",
+        "type": "trigger",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "pay",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "livit",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1580,
+        "y": 1100,
+        "wires": [
+            [
+                "e89f46e8ea8204bf"
+            ]
+        ]
+    },
+    {
+        "id": "9510dd3f7745f15a",
+        "type": "ui_toast",
+        "z": "c1cfd9835acb2e31",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 490,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "36e007e53a3807a9",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "msg.payload = \"~ Silahkan klik 'Reset' sekali lagi untuk memulai dan abaikan pesan ini jika sudah klik 2 kali! ~\";\nnode.send(msg);",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 270,
+        "y": 80,
+        "wires": [
+            [
+                "9510dd3f7745f15a"
+            ]
+        ]
+    },
+    {
+        "id": "561ade6c214c796b",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "elpe",
+        "topicType": "str",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "100000",
+        "step": "0.01",
+        "className": "",
+        "x": 3540,
+        "y": 860,
+        "wires": [
+            [
+                "341291c64bb96471"
+            ]
+        ]
+    },
+    {
+        "id": "341291c64bb96471",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var elpepe = flow.get(\"elpepe\");\n\nif (msg.topic === \"reset\") {\n    msg.payload = \"0 %\";\n    node.send(msg);\n} else if (msg.topic === \"elpe\") {\n    elpepe = msg.payload;\n    msg.payload = elpepe.toFixed(2) + \" %\";\n    node.send(msg);\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 3690,
+        "y": 860,
+        "wires": [
+            [
+                "cb2633f937b8ab9e",
+                "6ee0b9e30a736355"
+            ]
+        ]
+    },
+    {
+        "id": "7f9bfae96d7124eb",
+        "type": "ui_numeric",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "c65eda9f17231468",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "ele",
+        "topicType": "str",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "100000",
+        "step": "0.01",
+        "className": "",
+        "x": 3540,
+        "y": 1040,
+        "wires": [
+            [
+                "2f52c2c1007c2cac"
+            ]
+        ]
+    },
+    {
+        "id": "2f52c2c1007c2cac",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var elele = flow.get(\"elele\");\n\nif (msg.topic === \"reset\") {\n    msg.payload = \"0 %\";\n    node.send(msg);\n} else if (msg.topic === \"ele\") {\n    elele = msg.payload;\n    msg.payload = elele.toFixed(2) + \" %\";\n    node.send(msg);\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 3690,
+        "y": 1040,
+        "wires": [
+            [
+                "5ed6b0dabe4f5cf5",
+                "4548681f852d5ad7"
+            ]
+        ]
+    },
+    {
+        "id": "4548681f852d5ad7",
+        "type": "ui_gauge",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "group": "6db947571d49f1a7",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "gtype": "donut",
+        "title": "Line Efficiency",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#e60000",
+            "#e60000",
+            "#0fe000"
+        ],
+        "seg1": "89",
+        "seg2": "89",
+        "diff": false,
+        "className": "",
+        "x": 3880,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "afc945580dea8dc7",
+        "type": "inject",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "Caution !!",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 180,
+        "y": 180,
+        "wires": [
+            [
+                "2a7f48c856c6bf7d"
+            ]
+        ]
+    },
+    {
+        "id": "2a7f48c856c6bf7d",
+        "type": "function-npm",
+        "z": "c1cfd9835acb2e31",
+        "name": "",
+        "func": "var cautions = flow.get(\"cautions\");\n\nif (msg.topic === \"Caution !!\") {\n    cautions = \"-- Silahkan klik reset untuk memulai program ! --\";\n    msg.payload = cautions;\n    node.send(msg);\n}\nflow.set(\"cautions\", cautions)",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 180,
+        "wires": [
+            [
+                "50b7bef3163f5a7e"
+            ]
+        ]
+    },
+    {
+        "id": "50b7bef3163f5a7e",
+        "type": "ui_toast",
+        "z": "c1cfd9835acb2e31",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 530,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    }
+]
